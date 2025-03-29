@@ -1,0 +1,308 @@
+[gd_scene load_steps=10 format=3 uid="uid://fjta2m1riv1v"]
+
+[ext_resource type="Texture2D" uid="uid://0wuka1p3c50w" path="res://assets/sprites/environment/Background_TileSheet.png" id="1_l7hbm"]
+[ext_resource type="Texture2D" uid="uid://dxvka4e8yo27h" path="res://assets/sprites/environment/grass/Grass_Blade2.png" id="1_lcms0"]
+[ext_resource type="Texture2D" uid="uid://8g2j02a0vfmq" path="res://assets/sprites/environment/grass/Grass_TileOverlay3.png" id="2_ddpyi"]
+[ext_resource type="Texture2D" uid="uid://btpx4r2fx5n0t" path="res://assets/sprites/environment/grass/Grass_TileOverlay4.png" id="3_ddhlx"]
+[ext_resource type="Texture2D" uid="uid://biku0e7kf684s" path="res://assets/sprites/plants/Carrot_GrowthStages.png" id="4_wgvh3"]
+[ext_resource type="StyleBox" uid="uid://8lec18l0xnei" path="res://assets/themes/buttonNormal.tres" id="6_5dmdv"]
+[ext_resource type="FontFile" uid="uid://6cw7ye4q8g7t" path="res://assets/ui/fonts/04B_30__.TTF" id="6_fvs4n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2uc4"]
+bg_color = Color(0.670588, 0.662745, 0.356863, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.345098, 0.380392, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jlfxd"]
+bg_color = Color(0.345098, 0.380392, 0.2, 1)
+
+[node name="PomodoroTimer" type="Node2D"]
+
+[node name="BottomUI" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Background" type="Panel" parent="BottomUI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_j2uc4")
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="DecorationsBack" type="Node2D" parent="World"]
+
+[node name="Grass14" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(321, 245)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass15" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(271, 215)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass16" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(131, 250)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass17" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(41, 207)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass18" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(101, 184)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass19" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(65, 156)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass20" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(51, 95)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass21" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(114, 123)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass22" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(167, 85)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass23" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(170, 141)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass24" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(239, 163)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass25" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(174, 204)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass26" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(242, 104)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass27" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(302, 72)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass28" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(370, 110)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass29" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(312, 132)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass30" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(367, 185)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass31" type="Sprite2D" parent="World/DecorationsBack"]
+position = Vector2(315, 181)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Plot" type="Node2D" parent="World"]
+
+[node name="Dirt" type="Sprite2D" parent="World/Plot"]
+position = Vector2(189.5, 307)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_l7hbm")
+hframes = 3
+vframes = 2
+
+[node name="GrassCoverLeft" type="Sprite2D" parent="World/Plot"]
+position = Vector2(136.5, 361)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("2_ddpyi")
+
+[node name="GrassCoverRight" type="Sprite2D" parent="World/Plot"]
+position = Vector2(255.5, 361)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("3_ddhlx")
+
+[node name="Plant" type="Sprite2D" parent="World/Plot"]
+position = Vector2(199, 242)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("4_wgvh3")
+hframes = 5
+
+[node name="PlantCover" type="Sprite2D" parent="World/Plot"]
+position = Vector2(191, 261)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_l7hbm")
+hframes = 3
+vframes = 2
+frame = 4
+
+[node name="DecorationsFront" type="Node2D" parent="World"]
+
+[node name="Grass" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(342, 400)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass2" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(22, 339)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass3" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(104, 375)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass4" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(63, 413)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass5" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(122, 462)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass6" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(185, 413)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass7" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(251, 459)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass8" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(355, 458)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass9" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(281, 394)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass10" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(324, 341)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass11" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(368, 288)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass12" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(37, 464)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="Grass13" type="Sprite2D" parent="World/DecorationsFront"]
+position = Vector2(52, 275)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_lcms0")
+
+[node name="TopUI" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="TopUI"]
+custom_minimum_size = Vector2(0, 34.025)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -450.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jlfxd")
+
+[node name="MarginContainer" type="MarginContainer" parent="TopUI/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="TaskBar" type="HBoxContainer" parent="TopUI/Panel/MarginContainer"]
+layout_mode = 2
+
+[node name="PinButton" type="Button" parent="TopUI/Panel/MarginContainer/TaskBar"]
+visible = false
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_fvs4n")
+theme_override_styles/normal = ExtResource("6_5dmdv")
+text = " X "
+
+[node name="Label" type="Label" parent="TopUI/Panel/MarginContainer/TaskBar"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_fvs4n")
+theme_override_font_sizes/font_size = 22
+text = "Pomodoro Timer"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TopUI/Panel/MarginContainer/TaskBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 2
+
+[node name="QuitButton" type="Button" parent="TopUI/Panel/MarginContainer/TaskBar/HBoxContainer"]
+custom_minimum_size = Vector2(35, 35)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_fvs4n")
+theme_override_styles/normal = ExtResource("6_5dmdv")
+text = " - "
+
+[node name="MinimizeButton" type="Button" parent="TopUI/Panel/MarginContainer/TaskBar/HBoxContainer"]
+custom_minimum_size = Vector2(35, 35)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_fvs4n")
+theme_override_styles/normal = ExtResource("6_5dmdv")
+text = " X "
+
+[node name="MarginContainer" type="MarginContainer" parent="TopUI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 50.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TopUI/MarginContainer"]
+layout_mode = 2
